@@ -1,0 +1,90 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+main {
+    width: 800px;
+    margin: 100px auto 50px;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    margin: 8% auto;
+    background: rgb(88, 109, 219);
+    background: linear-gradient(90deg, rgba(88, 109, 219, 1) 2%, rgba(241, 62, 99, 1) 93%);
+}
+
+.section1 {
+    background-color: rgba(211, 211, 211, 0.3);
+    padding: 10PX 10PX 10PX 10PX;
+    border-radius: 8px;
+}
+
+.section2 {
+    background-color: rgba(211, 211, 211, 0.3);
+    padding: 10px 20px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    height: auto;
+    width: 300px;
+}
+
+H2 {
+    text-align: center;
+    color: white;
+}
+
+.card {
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    padding: 0;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.button-start {
+    background-color: rgb(47, 121, 231);
+    color: white;
+    font-size: 15px;
+    width: 300px;
+    height: auto;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.estadisticas {
+    border: 1px solid white;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.247);
+    color: whitesmoke;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color: beige;
+    font-size: 5rem;
+}
+
+.disabled {
+    cursor: not-allowed;
+    opacity: 80%;
+    background-color: gray;
+}
+
+img {
+    width: auto;
+    height: 100%;
+}

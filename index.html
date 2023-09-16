@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+
+<body>
+
+
+
+    <footer>
+        <h1 class="titulo">MEMOTEST</h1>
+    </footer>
+
+    <main>
+        <section class="section1">
+            <table>
+                <tr>
+                    <td><button id="0" onclick="destapar(0)" class="card"></button></td>
+                    <td><button id="1" onclick="destapar(1)" class="card"></button></td>
+                    <td><button id="2" onclick="destapar(2)" class="card"></button></td>
+                    <td><button id="3" onclick="destapar(3)" class="card"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick="destapar(4)" class="card"></button></td>
+                    <td><button id="5" onclick="destapar(5)" class="card"></button></td>
+                    <td><button id="6" onclick="destapar(6)" class="card"></button></td>
+                    <td><button id="7" onclick="destapar(7)" class="card"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="8" onclick="destapar(8)" class="card"></button></td>
+                    <td><button id="9" onclick="destapar(9)" class="card"></button></td>
+                    <td><button id="10" onclick="destapar(10)" class="card"></button></td>
+                    <td><button id="11" onclick="destapar(11)" class="card"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="12" onclick="destapar(12)" class="card"></button></td>
+                    <td><button id="13" onclick="destapar(13)" class="card"></button></td>
+                    <td><button id="14" onclick="destapar(14)" class="card"></button></td>
+                    <td><button id="15" onclick="destapar(15)" class="card"></button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="section2">
+            <h2 class="estadisticas">Aciertos: <span id="contador_aciertos">0</span></h2>
+            <h2 class="estadisticas">Tiempo: <span id="Tiempo"></span> Segundos</h2>
+            <h2 class="estadisticas">Movimientos: <span id="contador_movimientos">0</span></h2>
+            <button class="button-start">Iniciar Juego</button>
+            <button class="button-start" onclick=location.reload() >Restart</button>
+
+        </section>
+    </main>
+    
+</body>
+    <script src="index.js"></script>
+</html>
